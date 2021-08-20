@@ -1,0 +1,39 @@
+@import '../../styles/color';
+.new-employee-form__container {
+  position: absolute;
+  top: 115px;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  max-width: 500px;
+  height: auto;
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: $medium;
+  border-radius: 15px;
+  box-shadow: 1px 1px 20px 5px lightgrey;
+  z-index: 3;
+  h2 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+  }
+  .buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .general-button {
+      margin: 10px 0;
+      &:last-child {
+        margin-left: 10px;
+      }
+    }
+  }
+}

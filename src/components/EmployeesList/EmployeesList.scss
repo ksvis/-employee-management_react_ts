@@ -1,0 +1,11 @@
+.employees-list__container {
+  .employees-list__header-panel {
+    display: flex;
+    align-items: center;
+  }
+  .employees-list__title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}

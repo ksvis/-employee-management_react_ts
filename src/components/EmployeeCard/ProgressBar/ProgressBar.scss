@@ -1,0 +1,50 @@
+@import '../../../styles/color';
+.progressBar__container {
+  display: flex;
+  margin: 0 10px;
+  .state-element__container {
+    position: relative;
+    padding: 10px 40px;
+    background-color: $light;
+    border: 2px solid $medium;
+    border-radius: 3px;
+    &:before, &:after {
+      content: "";
+      position: absolute;
+      right: -42px;
+      top: 0;
+      border: 20px solid transparent;
+      border-left: 20px solid $medium;
+      z-index: 2;
+    }
+    &:after {
+      border-left: 24px solid $light;
+      bottom: 0;
+    }
+    &:last-child:after, &:last-child:before {
+      display: none;
+    }
+  }
+  .state-element__container.active {
+    background-color: $medium;
+    border: transparent;
+    &:before, &:after {
+      content: "";
+      position: absolute;
+      right: -36px;
+      top: 0;
+      border: 21px solid transparent;
+      border-left: 15px solid $medium;
+      z-index: 2;
+    }
+    &:last-child:after, &:last-child:before {
+      display: none;
+    }
+    p{
+      color: white;
+    }
+  }
+}
+
+
+

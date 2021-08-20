@@ -1,0 +1,36 @@
+@import '../../styles/color';
+.employee__container {
+  min-width: 1200px;
+  .employee__short-info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    border: 1px solid $medium;
+    border-bottom: 0.5px;
+    border-radius: 3px;
+    background-color: white;
+    &:last-child {
+      border-bottom: 1px solid lightgray;
+    }
+    .employee__user-icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      background-color: $medium;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+    .employee__name{
+      width: 15%;
+      margin-left: 10px;
+    }
+    .employee__preview-button {
+      font-size: x-large;
+      display: flex;
+    }
+  }
+}

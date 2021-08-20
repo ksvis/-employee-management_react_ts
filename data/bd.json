@@ -1,0 +1,88 @@
+{
+  "employees": [
+    {
+      "id": "1fd",
+      "name": "Nik",
+      "lastName": "Nok",
+      "state": "INACTIVE"
+    },
+    {
+      "id": "2vdf",
+      "name": "Verona",
+      "lastName": "Plis",
+      "state": "IN-CHECK"
+    },
+    {
+      "id": "3dfv",
+      "name": "Nikola",
+      "lastName": "Vas",
+      "state": "APPROVED"
+    },
+    {
+      "id": "4dfv",
+      "name": "Kate",
+      "lastName": "Klarks",
+      "state": "ACTIVE"
+    },
+    {
+      "id": "5dfv",
+      "name": "Valery",
+      "lastName": "Simens",
+      "state": "INACTIVE"
+    },
+    {
+      "id": "6asd",
+      "name": "Dan",
+      "lastName": "Plat",
+      "state": "APPROVED"
+    },
+    {
+      "id": "7afdv",
+      "name": "Nika",
+      "lastName": "Chik",
+      "state": "IN-CHECK"
+    },
+    {
+      "id": "8afv",
+      "name": "Julia",
+      "lastName": "Sim",
+      "state": "INACTIVE"
+    },
+    {
+      "id": "9afv",
+      "name": "Nikola",
+      "lastName": "Vas",
+      "state": "ACTIVE"
+    },
+    {
+      "id": "10sfdv",
+      "name": "Nikola",
+      "lastName": "Vas",
+      "state": "INACTIVE"
+    },
+    {
+      "name": "tester",
+      "lastName": "testerov",
+      "state": "ADDED",
+      "id": "Ow1x-s6"
+    },
+    {
+      "name": "Donald",
+      "lastName": "Dug",
+      "state": "ADDED",
+      "id": "TbDwGT8"
+    },
+    {
+      "name": "Mark",
+      "lastName": "Tven",
+      "state": "ADDED",
+      "id": "1pzZ275"
+    },
+    {
+      "name": "Zeg",
+      "lastName": "Zug",
+      "state": "ADDED",
+      "id": "4I5DD7z"
+    }
+  ]
+}
